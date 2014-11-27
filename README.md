@@ -8,7 +8,9 @@ The repository contains the client support library for [PassportPayments API](ht
 ```
 
 ```js
-var pp = new PassportCardToken(APP_KEY); // YOUR APPKEY
+var endPoint = "https://sandbox.passportpayments.com/index.php"
+var pp = new PassportCardToken(APP_KEY, endPoint); // YOUR APPKEY
+
 var params = {
     "cardnumber": '4111111111111111'
     "expmonth": '12',
