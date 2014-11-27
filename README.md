@@ -4,7 +4,7 @@ The repository contains the client support library for [PassportPayments API](ht
 ## Usage
 
 ```js
-<script type="text/javascript" src="https://s3.amazonaws.com/passportpayments/js/passportpayments-1.0.0.min.js"></script>
+<script type="text/javascript" src="passportpayments-1.0.0.min.js"></script>
 ```
 
 ```js
